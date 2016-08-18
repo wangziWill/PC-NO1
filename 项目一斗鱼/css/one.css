@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "microsoft yahei";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+#box{
+    width: 100%;
+    height: 100%;
+    background:white;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #d1d1d1;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+#header .head{
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    height: 50px;
+}
+#header .head .head-logo{
+    background: url("../img/logo.png")no-repeat 0 8px;
+    width: 88px;
+    height: 35px;
+    display: block;
+    padding-top: 8px;
+    margin: 0px;
+}
+#header .head-nav {
+    padding: 10px 0 0 39px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 88px;
+    display: inline;
+}
+#header .head-nav a:hover{
+    color:#ff630e;
+}
+#header .head-nav>li {
+    font-size: 20px;
+    line-height: 30px;
+    width: 63px;
+    height: 30px;
+    margin: 0 8px;
+    text-align: center;
+    position: relative;
+}
+#header .head .head-nav .f1{
+    float: left;
+    display: inline;
+}
+.f1,.fr{
+    display: inline;
+}
+#header .head-nav>li>a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    height: 42px;
+}
+#header .head-nav>li.sy a {
+    color: #fff;
+    background: #ff630e;
+    border-radius: 3px;
+    width: 63px;
+    height: 30px;
+}
+#header .head-nav .fl>i {
+    position: absolute;
+    right: -10px;
+    top: 14px;
+    width: 9px;
+    height: 5px;
+    overflow: hidden;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(../img/assort-icon.png) no-repeat;
+}
+#header .head-nav .fl:hover i{
+    background: url(../img/assort-icon-hover.png) no-repeat;
+}
+#header .head-nav .fl:hover .a-pop{
+    display: block;
+    -webkit-transition: all .3s ease-in-out;
+
+}
+#header .head-nav .fl .a-pop {
+    padding: 10px 15px 12px;
+    width: 247px;
+    position: absolute;
+    right: -107px;
+    top: 40px;
+    display: none;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 14px;
+}
+#header .head-nav .fl .a-pop>i {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: -9px;
+    right: 50%;
+    margin-right: -7px;
+    background: url(../img/arrow-top.png) no-repeat;
+}
+#header .head-nav .fl .a-list>h3 {
+    margin: 8px 0 4px;
+    color: #444;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+    text-align: left;
+}
+#header .head-nav .fl .a-list .btns {
+    width: 250px;
+    overflow: hidden;
+}
+#header .head-nav .fl .a-list .btns li {
+    float: left;
+    padding: 0 3px 3px 0;
+}
+#header .head-nav .fl .a-list .btns li a {
+    display: block;
+    padding: 0;
+    width: 80px;
+    height: 24px;
+    background: #ececec;
+    border: none;
+    font-size: 12px;
+    line-height: 24px;
+    color: #797979;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+}
+#header .head-nav .fl .a-list .btn-all>a {
+    display: block;
+    margin-top: 10px;
+    height: 24px;
+    background: #f70;
+    line-height: 24px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+#header .head-nav .fl .a-list .btn-all>a:hover{
+    background: #ff5600;
+}
+#header .head-nav .fl .a-list .btn-all:hover .btn-all {
+    background: #f70;
+}
+#header .head-nav .yx>i {
+    display: block;
+    width: 22px;
+    height: 16px;
+    background: url(../img/hot-ico.png) no-repeat;
+    position: absolute;
+    top: -2px;
+    right: -12px;
+}
+#header .head-nav .fl .a-list .btns li a:hover{
+    border: none;
+    background:#f70;
+    color: white;
+}
+.olympics-counter {
+    float: left;
+    position: relative;
+    left: 441px;
+    top: 10px;
+    margin-left: -5px;
+    width: 80px;
+    height: 30px;
+    background: url(../img/counter_bg.png) center no-repeat;
+}
+#dhm em{
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 83px;
+}
+#dhm em i{
+    display: inline-block;
+    font-style: normal;
+    color:#fff;
+    font-size: 14px;
+}
+#dhm em i.dd{
+    margin-left: 0;
+}
+#dhm em i.hh{
+    position: absolute;
+    right: 40px;
+}
+#dhm em i.mm{
+    position: absolute;
+    right: 13px;
+}
+.fr{
+    float: right;
+}
+div.head-oth{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#header .head-oth .o-search{
+    margin: 13px 25px 0 0;
+    height: 22px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+#header .head-oth .o-search .s-ipt{
+    display: block;
+    font-size: 12px;
+    background: 0 0;
+    border: none;
+    outline: 0;
+    width: 116px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+}
+#header .head-oth .o-search .s-ico{
+    display: block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+#header .head-oth .o-search .s-ico>.ico-in{
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url("../img/head-icos.png")-500px -500px no-repeat;
+}
+#header .head-oth .o-search .s-ico>.ico-in {
+    background-position: 0 -76px;
+}
+#header .head-oth .o-download{
+    margin-right: 10px;
+    padding: 15px 17px 15px 0;
+    position: relative;
+    cursor: pointer;
+}
+#header .head-oth .o-download .ico-in{
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url("../img/head-icos.png")-500px -500px no-repeat;
+}
+#header .head-oth .o-download .ico-in {
+    background-position: 0 -51px;
+}
+#header .head-oth .o-download .d-txt,#header .head-oth .o-unlogin .u-login,#header .head-oth .o-unlogin .u-reg,#header .head-oth .o-unlogin>em{
+    vertical-align: top;
+    line-height: 20px;
+    color: #868686;
+}
+#header .head-oth .o-download>i{
+    position: absolute;
+    right: 6px;
+    top: 23px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    display:inline-block;
+    border-top: 5px solid #868686;
+    border-left: 4px dashed transparent;
+    border-right: 4px dashed transparent;
+    border-bottom: 0 none;
+    -webkit-transition: all .3s ease-in-out;
+}
+#header .head-oth .o-download:hover .o-downS{
+    border-top: 0 none;
+    border-left: 4px dashed transparent;
+    border-right: 4px dashed transparent;
+    border-bottom: 5px solid #868686;
+}
+#header .head-oth .o-download:hover .d-ico{
+    background-position:-23px -51px;
+}
+#header .head-oth .o-download:hover .d-txt{
+    color:#f70 ;
+}
+#header .head-oth .o-download:hover .d-list{
+    display: block;
+}
+#header .head-oth .o-download .d-list ul li a:hover{
+    color: #f70;
+    border-color: #f70;
+}
+#header .head-oth .o-download .d-list{
+    width: 174px;
+    display: none;
+    position: absolute;
+    right: -49px;
+    top: 50px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#header .head-oth .o-download .d-list>i{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: -9px;
+    right: 70px;
+    background: url("../img/arrow-top.png")no-repeat;
+}
+#header .head-oth .o-download .d-list ul li{
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+#header .head-oth .o-download .d-list ul li a{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color:#444;
+    border-left: 3px solid transparent;
+}
+#header .head-oth .o-unlogin{
+    padding-top: 15px;
+}
+#header .head-oth .o-unlogin .ico-in{
+    background-position: 0 -100px;
+}
+#header .head-oth .o-unlogin .u-login,#header .head-oth .o-unlogin .u-reg{
+    display: inline-block;
+    padding: 0 4px;
+    line-height: 20px;
+    color: #868686;
+}
+#header .ico-in{
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url("../img/head-icos.png")-500px -500px no-repeat;
+}
+#header .head-oth .o-unlogin .u-login:hover{
+    color: #f70;
+}
+#header .head-oth .o-unlogin .u-reg:hover{
+    color: #f70;
+}
+
+
+
+
+
+
+
+
+
+
+

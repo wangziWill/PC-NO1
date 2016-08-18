@@ -1,0 +1,5 @@
+vedioList=[{img:"img/106261_160716181158.jpg",desc:"请叫我老大",add:"http://player.youku.com/player.php/Type/Folder/Fid/27729868/Ob/1/sid/XMTY1NjUzMDM5Ng==/v.swf"},
+    {img:"img/256274_160716181148.jpg",desc:"请叫我老二",add:"http://player.youku.com/player.php/Type/Folder/Fid/27729868/Ob/1/sid/XMTY1NjUzMDM5Ng==/v.swf"},{img:"img/217331_160716181823.jpg",desc:"请叫我老三",add:"http://player.youku.com/player.php/Type/Folder/Fid/27729868/Ob/1/sid/XMTY1NjUzMDM5Ng==/v.swf"},{img:"img/307876_160716181053.jpg",desc:"请叫我老四",add:"http://player.youku.com/player.php/Type/Folder/Fid/27729868/Ob/1/sid/XMTY1NjUzMDM5Ng==/v.swf"
+},{img:"img/268932_160716175731.jpg",desc:"请叫我老五",add:"http://player.youku.com/player.php/Type/Folder/Fid/27729868/Ob/1/sid/XMTY1NjUzMDM5Ng==/v.swf"
+    },{img:"img/260872_160716181129.jpg",desc:"请叫我老六",add:"http://player.youku.com/player.php/Type/Folder/Fid/27729868/Ob/1/sid/XMTY1NjUzMDM5Ng==/v.swf"
+    }];
